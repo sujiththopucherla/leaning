@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-image: url( " bg.jpg" );
+    background-repeat: none;
+}
 header{
     background-color: rgb(97, 192, 189);
     color: rgb(12, 12, 12);
@@ -12,6 +15,7 @@ header{
 }
 nav{
     background-color: coral;
+    /*background-image: url( " bg.jpg" );*/
 
 }
 ul{
@@ -25,3 +29,18 @@ ul li{
     display: inline;
 }
 
+.aboutme{
+    border: 5px white;
+    margin-left: 30%;
+    margin-top: 100px;
+    height: 350px;
+    width: 450px;
+    /*background-image: url( " bg.jpg" );*/
+    
+}
+
+.aboutme h2{
+    color: blue;
+    border: 3px;
+    border-color: blueviolet;
+}
