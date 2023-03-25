@@ -38,33 +38,34 @@ ul li{
 
 main{
     border: 3px darksalmon;
-    height: 350px;
+    height: 600px;
     margin-top: 120px;
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    box-shadow: 3px 5px 8px 4px grey;
+    box-shadow: 3px 5px 19  px 10px grey;
     border-radius: 10px;
 }
 .mypic{
-    background-image: url( "pic.jpg" );
+    background-image: url( "asserts/pic.jpg" );
     background-repeat: no-repeat;
-    background-size: 250px 250px;
-    height: 250px;
-    width: 250px;
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
     border-radius: 3px;
     border: 3px;
-    box-shadow: 3px 5px 8px 5px grey ;
+    box-shadow: 3px 5px 5px 5px grey ;
 }
 .info{
     
-    padding-left: 30px;
+    padding-left: 10px;
      height: 200px; 
   /* background-color: brown;*/
-    flex-basis: 50%;
+    /*flex-basis: 50%;*/
   
 }
 
@@ -107,6 +108,7 @@ main{
 .Grad:hover{
     width: 35%;
     height: 210px;
+    color: beige;
 }
 .sec:hover{
     width: 35%;
@@ -135,6 +137,7 @@ main{
     text-decoration:underline dashed ;
     margin-top: 15px;
     text-align: center;
+    
 }
 .Edu h3{
     margin-top: 15px;
